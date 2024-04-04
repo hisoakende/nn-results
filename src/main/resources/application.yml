@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: nn-results
+  data:
+    mongodb:
+      database: ${DB_NAME}
+      uri: mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}
+  rabbitmq:
+    host: ${RABBIT_HOST}
+    port: ${RABBIT_PORT}
+    username: ${RABBIT_NAME}
+    password: ${RABBIT_PASSWORD}
